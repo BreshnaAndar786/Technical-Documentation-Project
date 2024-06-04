@@ -108,7 +108,36 @@
         </p>
         <pre>
             <code>
-                
+                public class student: {
+
+                  /* student properties */
+                  private string name;
+                  private int age;
+
+                  /*constructor */
+                  public student(string name,int age){
+                    this.name= name;
+                    this.age= age;
+                  }
+
+                  /*Getter <method></method>piblic string getName() {
+                    return name;
+                  }
+
+                  /*setter method */
+                  public void setName(string name) {
+                    this.name =name;
+                  }
+                }
+            </code>
+        </pre>
+        <p>we use this class by doing the following:</p>
+        <pre>
+            <code>
+                student student1= new student("Jimmy",19);
+                string jimmyName = student1.getName();
+                student1.setName("kevin");
+                string kevinName = student1.getName();
             </code>
         </pre>
       </section>
