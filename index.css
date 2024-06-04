@@ -14,3 +14,8 @@ body {
 section {
   margin-top: 40px;
 }
+
+#navbar {
+  background-color: aqua;
+  
+}
