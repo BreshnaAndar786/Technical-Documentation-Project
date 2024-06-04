@@ -53,3 +53,11 @@ ol {
 #main-doc {
   margin: 0 auto;
 }
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 500;
+}
