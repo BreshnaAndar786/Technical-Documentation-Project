@@ -17,5 +17,39 @@ section {
 
 #navbar {
   background-color: aqua;
-  
+  width: 100%;
+  border-bottom: 1px solid;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid black;
+  list-style: none;
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration:none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: text-indent 3s ease-in-out;
+}
+
+#navbar a:hover {
+  font-weight: 500;
+  text-indent: 5px;
+}
+
+p {
+  margin: 10px;
+}
+
+ol {
+  margin-left: 30px;
+}
+
+#main-doc {
+  margin: 0 auto;
 }
