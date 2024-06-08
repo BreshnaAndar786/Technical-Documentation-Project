@@ -1,11 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
 body {
   background-color: rgb(red, green, blue);
   display: flex;
@@ -31,13 +32,13 @@ section {
 }
 
 #navbar a {
-    display: block;
-    padding: 10px 30px;
-    color: #4d4e53;
-    text-decoration:none;
-    cursor: pointer;
-    font-size: 18px;
-    transition: text-indent 3s ease-in-out;
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  transition: text-indent 3s ease-in-out;
 }
 
 #navbar a:hover {
@@ -88,25 +89,26 @@ footer {
   color: #dcdde6;
 }
 
-@media only screen and (main-width: 815px) {
-    body {
-      flex-direction: row;
-    }
-    #navbar {
-      width: 300px;
-      position: fixed;
-      height: 100%;
-      resize: horizontal;
-      overflow-x: scroll;
-    }
+@media only screen and (min-width: 815px) {
+  body {
+    flex-direction: row;
+  }
 
-    .image {
-      width: 70%;
-      margin-left: 20px;
-    }
+  #navbar {
+    width: 300px;
+    position: fixed;
+    height: 100%;
+    resize: horizontal;
+    overflow-x: scroll;
+  }
 
-    #main-doc {
-      margin: 0 20px;
-      margin-left: 350px;
-    }
+  .image {
+    width: 70%;
+    margin-left: 20px;
+  }
+
+  #main-doc {
+    margin: 0 20px;
+    margin-left: 350px;
+  }
 }
